@@ -61,9 +61,6 @@ class Song
     @song.name=song_info[1].chomp(".mp3")
     @song.save
     @song
-  
-  
-    @song
   end
   
   def self.destroy_all
